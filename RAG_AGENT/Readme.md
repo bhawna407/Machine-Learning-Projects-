@@ -1,64 +1,52 @@
-# 📊 Customer Lifetime Value (CLTV) Prediction Pipeline
+# 🧠 Conversational Analytics Agent with RAG Architecture
 
-An enterprise-grade, end-to-end Machine Learning pipeline designed to predict customer transaction frequencies and financial values over a rolling 90-day horizon. Utilising transactional data from the UCI Online Retail dataset, this project implements structural probabilistic modelling to segment customers, evaluate marketing ROI, and mitigate customer churn.
-
----
-
-## 🚀 Business Problem & Objectives
-Traditional marketing focus metrics treat all customers equally based on historical transactions, leading to wasted marketing spend on low-value users. 
-
-**This pipeline shifts the strategy from reactive to predictive by answering:**
-1. How many purchases will a customer make in the next 90 days?
-2. What is the expected average monetary value per transaction?
-3. Which customer cohorts represent the highest long-term financial equity (VIPs vs. Churn risks)?
+An enterprise-grade Retrieval-Augmented Generation (RAG) analytics assistant engineered to allow non-technical business users to query high-volume sales and operations metrics using natural language. This system processes transactional text logs, builds a localized vector space, and utilizes an LLM to serve answers backed by verifiable source citations.
 
 ---
 
-## 🛠️ Tech Stack & Frameworks
-* **Language:** Python 3.11+
-* **Probabilistic Modelling:** `lifetimes` (BG/NBD and Gamma-Gamma Fitter)
-* **Data Engineering:** `pandas`, `numpy`
-* **Visualization & Reporting:** `matplotlib`, `seaborn`, **Power BI**
-* **Version Control & Automation:** Git, GitHub Architecture
+## 🚀 Business Core Objective
+Traditional business intelligence requires SQL knowledge or manual dashboard deep-dives. This system shifts the analytics workflow to conversational interfaces, fetching multi-dimensional context instantly from raw operations data without any AI hallucinations.
 
 ---
 
-## 📐 Project Architecture & Workflow
-
-### 🔹 Phase 1: Data Cleansing & RFM Engineering
-* Handled negative transaction quantities, unit pricing anomalies, and neutralised cancelled orders (invoices starting with 'C').
-* Engineered structural features aggregated at the individual customer level:
-  * **Frequency:** Count of repeat purchases.
-  * **Recency:** Age of the customer at their last purchase.
-  * **T:** Customer age/tenure since their first purchase.
-  * **Monetary Value:** Average spend per transaction.
-* Generated output cache: `rfm_summary.csv`.
-
-### 🔹 Phase 2: Statistical Modelling & Optimisation
-* **BG/NBD Model (Beta-Geometric/Negative Binomial Distribution):** Trained to model customer drop-out rates, assessing the mathematical probability that a customer is still active vs. inactive.
-* **Gamma-Gamma Model:** Trained on repeat-purchase behaviour to estimate the expected mean transaction value per customer segment.
-* **CLTV Aggregator:** Combined the statistical distribution layers to compute individual expected values for the next 90 days.
-* Generated output cache: `cltv_predictions.csv`.
-
-### 🔹 Phase 3: Strategic Value Segmentation & ROI Matrix
-Applied the 80/20 rule to divide the entire customer base into 4 data-driven cohorts for optimised business targeting:
-
-| Segment | Distribution | Core Characteristics | Actionable Business Strategy |
-| :--- | :--- | :--- | :--- |
-| **VIP** | Top 10% | Premium spenders driving maximum revenue share. | Personalised white-glove service, loyalty perks. |
-| **High Value** | Next 20% | Steady transaction volume with upselling headroom. | Tiered cross-selling, exclusive product drops. |
-| **Medium Value**| Middle 30% | Moderate engagement; shows signs of fatigue. | Win-back email automations, behaviour-driven discounts. |
-| **Low Value** | Bottom 40% | Low transactional frequency; high churn probability. | Automated low-cost messaging; minimize marketing overhead. |
+## 🛠️ Deep Tech Stack & Frameworks
+* **Orchestration & Pipeline:** LangChain
+* **Vector Store & Indexing:** FAISS (Facebook AI Similarity Search)
+* **Embedding Model:** `sentence-transformers/all-MiniLM-L6-v2`
+* **Local LLM Engine:** Mistral-7B via Ollama
+* **Data Layer:** Pandas, NumPy
+* **User Interface:** Streamlit UI Components
+* **Evaluation Framework:** RAGAS (Faithfulness, Context Recall, Answer Relevancy)
 
 ---
 
-## 📈 File Structure
+## 📐 3-Day Implementation Architecture
+
+### 📅 Day 1: Data Synthesis, Semantic Chunking & Vector DB Setup
+* **Data Transformation:** Processed the raw Brazilian E-Commerce Olist Dataset from Kaggle, aggregating unstructured information into highly structured text summaries (Monthly Sales, Seller Performance, Regional Delivery Latency, Review Sentiment Themes).
+* **Chunking Strategy:** Structured documents into dense `200-400 token chunks` with custom overlap parameters to maintain context at boundaries.
+* **Vectorization:** Encoded chunks through `all-MiniLM-L6-v2` and built a disk-persistent FAISS index structure.
+* **Evaluation Framework:** Synthesized a diagnostic 20-question Q&A evaluation matrix covering complex reasoning types (Simple stats, Trend analysis, Comparison, Causal reasoning).
+
+### 📅 Day 2: LLM Integration, Query Routing & Interface Draft
+* **Local Deployment:** Configured Mistral-7B locally via Ollama to guarantee absolute data privacy and offline operational capabilities.
+* **Smart Hybrid Query Routing:** Engineered an intelligent logical layer that bypasses the expensive RAG pipeline for simple arithmetic queries, executing direct Python data calculations instead, while routing analytical requests to the vector store.
+* **Citation Mechanism:** Built a custom extraction layer that maps generated text answers back to the retrieved underlying source documents, ensuring transparency.
+
+### 📅 Day 3: RAGAS Evaluation & Streamlit Polishing
+* **Framework Benchmarking:** Executed full automated evaluations assessing system *Faithfulness* (grounded answers), *Context Recall* (retrieval capability), and *Answer Relevancy*.
+* **UI Delivery:** Wrapped the localized pipeline into a clean Streamlit interface with sidebar metadata controls, tracking failure cases to continually enhance response boundaries.
+
+---
+
+## 📁 Folder Structure & Pipeline Artifacts
 ```text
-├── rfm_summary.csv               # Processed RFM feature metrics (Day 1 Output)
-├── cltv_predictions.csv          # Finalised 90-day predictions & CLTV scores (Day 2 Output)
-├── ecommerce_cltv_pipeline.py    # Main training and execution pipeline script
-├── model_validation.py           # Evaluation script checking goodness-of-fit
-├── cltv_model_diagnostics.png    # Validation diagnostic graphs 
-├── model_validation_summary.png  # Expected vs Actual calibration plotting
+├── DAY_1/
+│   └── output/
+│       ├── faiss_index.bin       # Serialized Vector Database Index
+│       ├── chunk_store.json      # Mapping store for semantic text blocks
+│       └── eval_set_20q.json     # 20-Question Q&A Evaluation Spreadsheet
+├── app.py                        # Streamlit UI Dashboard Interface Code
+├── rag_pipeline.py               # Core LangChain & Ollama orchestration logic
+├── query_router.py               # Semantic query sorting framework
 └── README.md                     # Documentation
-
