@@ -1,0 +1,394 @@
+[
+  {
+    "chunk_id": "monthly_sales_summary_chunk_000",
+    "doc_name": "monthly_sales_summary",
+    "text": "MONTHLY SALES SUMMARY BY CATEGORY\n==================================================\nThis report covers delivered orders from the Olist e-commerce platform.\nMetrics: total revenue (BRL), number of unique orders, avg total order value.",
+    "bpe_tokens": 92,
+    "char_len": 234
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_001",
+    "doc_name": "monthly_sales_summary",
+    "text": "OVERALL MONTHLY TOTALS\n\n----------------------------------------\n\nMonth 2016-09: Revenue BRL 143.46, Orders 1\n\nMonth 2016-10: Revenue BRL 46,490.66, Orders 265\n\nMonth 2016-12: Revenue BRL 19.62, Orders 1\n\nMonth 2017-01: Revenue BRL 127,482.37, Orders 750\n\nMonth 2017-02: Revenue BRL 271,239.32, Orders 1,653\n\nMonth 2017-03: Revenue BRL 414,330.95, Orders 2,546\n\nMonth 2017-04: Revenue BRL 390,812.40, Orders 2,303",
+    "bpe_tokens": 164,
+    "char_len": 413
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_002",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2017-05: Revenue BRL 566,851.40, Orders 3,546\n\nMonth 2017-06: Revenue BRL 490,050.37, Orders 3,135\n\nMonth 2017-07: Revenue BRL 566,299.08, Orders 3,872\n\nMonth 2017-08: Revenue BRL 645,832.36, Orders 4,193\n\nMonth 2017-09: Revenue BRL 701,077.49, Orders 4,150\n\nMonth 2017-10: Revenue BRL 751,117.01, Orders 4,478\n\nMonth 2017-11: Revenue BRL 1,153,364.20, Orders 7,289\n\nMonth 2017-12: Revenue BRL 843,078.29, Orders 5,513",
+    "bpe_tokens": 163,
+    "char_len": 424
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_003",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2018-01: Revenue BRL 1,077,887.46, Orders 7,069\n\nMonth 2018-02: Revenue BRL 966,168.41, Orders 6,555\n\nMonth 2018-03: Revenue BRL 1,120,598.24, Orders 7,003\n\nMonth 2018-04: Revenue BRL 1,132,878.93, Orders 6,798\n\nMonth 2018-05: Revenue BRL 1,128,774.52, Orders 6,749\n\nMonth 2018-06: Revenue BRL 1,011,978.29, Orders 6,099\n\nMonth 2018-07: Revenue BRL 1,027,807.28, Orders 6,159\n\nMonth 2018-08: Revenue BRL 985,491.64, Orders 6,351",
+    "bpe_tokens": 174,
+    "char_len": 434
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_004",
+    "doc_name": "monthly_sales_summary",
+    "text": "TOP 3 CATEGORIES PER MONTH\n----------------------------------------\n\nMonth 2016-09:\n  Category 'health_beauty': Revenue BRL 143.46, Orders 1, Avg Order Value BRL 143.46\n\nMonth 2016-10:\n  Category 'furniture_decor': Revenue BRL 6,899.35, Orders 49, Avg Order Value BRL 140.80\n  Category 'perfumery': Revenue BRL 5,315.20, Orders 26, Avg Order Value BRL 204.43\n  Category 'toys': Revenue BRL 4,591.53, Orders 22, Avg Order Value BRL 208.71",
+    "bpe_tokens": 166,
+    "char_len": 437
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_005",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2016-12:\n  Category 'fashion_bags_accessories': Revenue BRL 19.62, Orders 1, Avg Order Value BRL 19.62\n\nMonth 2017-01:\n  Category 'furniture_decor': Revenue BRL 15,863.93, Orders 132, Avg Order Value BRL 120.18\n  Category 'health_beauty': Revenue BRL 13,802.80, Orders 79, Avg Order Value BRL 174.72\n  Category 'sports_leisure': Revenue BRL 10,754.95, Orders 57, Avg Order Value BRL 188.68",
+    "bpe_tokens": 126,
+    "char_len": 395
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_006",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2017-02:\n  Category 'health_beauty': Revenue BRL 25,178.32, Orders 143, Avg Order Value BRL 176.07\n  Category 'furniture_decor': Revenue BRL 25,010.20, Orders 213, Avg Order Value BRL 117.42\n  Category 'sports_leisure': Revenue BRL 18,519.89, Orders 134, Avg Order Value BRL 138.21\n\nMonth 2017-03:\n  Category 'computers_accessories': Revenue BRL 31,286.73, Orders 147, Avg Order Value BRL 212.83\n  Category 'bed_bath_table': Revenue BRL 29,856.01, Orders 239, Avg Order Value BRL 124.92\n  Category 'health_beauty': Revenue BRL 29,463.99, Orders 190, Avg Order Value BRL 155.07",
+    "bpe_tokens": 186,
+    "char_len": 582
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_007",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2017-04:\n  Category 'bed_bath_table': Revenue BRL 28,700.38, Orders 231, Avg Order Value BRL 124.24\n  Category 'sports_leisure': Revenue BRL 26,977.69, Orders 184, Avg Order Value BRL 146.62\n  Category 'health_beauty': Revenue BRL 25,454.20, Orders 168, Avg Order Value BRL 151.51\n\nMonth 2017-05:\n  Category 'health_beauty': Revenue BRL 52,254.72, Orders 261, Avg Order Value BRL 200.21\n  Category 'computers_accessories': Revenue BRL 50,303.12, Orders 253, Avg Order Value BRL 198.83\n  Category 'sports_leisure': Revenue BRL 39,947.95, Orders 256, Avg Order Value BRL 156.05",
+    "bpe_tokens": 185,
+    "char_len": 581
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_008",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2017-06:\n  Category 'cool_stuff': Revenue BRL 42,539.56, Orders 195, Avg Order Value BRL 218.15\n  Category 'computers_accessories': Revenue BRL 40,687.60, Orders 212, Avg Order Value BRL 191.92\n  Category 'bed_bath_table': Revenue BRL 40,132.47, Orders 324, Avg Order Value BRL 123.87\n\nMonth 2017-07:\n  Category 'bed_bath_table': Revenue BRL 73,336.34, Orders 503, Avg Order Value BRL 145.80\n  Category 'computers_accessories': Revenue BRL 43,948.83, Orders 268, Avg Order Value BRL 163.99\n  Category 'sports_leisure': Revenue BRL 43,896.84, Orders 327, Avg Order Value BRL 134.24",
+    "bpe_tokens": 189,
+    "char_len": 586
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_009",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2017-08:\n  Category 'bed_bath_table': Revenue BRL 65,628.16, Orders 442, Avg Order Value BRL 148.48\n  Category 'health_beauty': Revenue BRL 55,281.78, Orders 338, Avg Order Value BRL 163.56\n  Category 'sports_leisure': Revenue BRL 48,309.09, Orders 375, Avg Order Value BRL 128.82\n\nMonth 2017-09:\n  Category 'bed_bath_table': Revenue BRL 61,723.02, Orders 456, Avg Order Value BRL 135.36\n  Category 'health_beauty': Revenue BRL 58,123.19, Orders 356, Avg Order Value BRL 163.27\n  Category 'sports_leisure': Revenue BRL 57,463.77, Orders 408, Avg Order Value BRL 140.84",
+    "bpe_tokens": 190,
+    "char_len": 574
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_010",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2017-10:\n  Category 'watches_gifts': Revenue BRL 69,770.94, Orders 282, Avg Order Value BRL 247.41\n  Category 'sports_leisure': Revenue BRL 56,797.18, Orders 417, Avg Order Value BRL 136.20\n  Category 'bed_bath_table': Revenue BRL 55,209.90, Orders 442, Avg Order Value BRL 124.91\n\nMonth 2017-11:\n  Category 'bed_bath_table': Revenue BRL 104,963.58, Orders 804, Avg Order Value BRL 130.55\n  Category 'watches_gifts': Revenue BRL 103,135.30, Orders 424, Avg Order Value BRL 243.24\n  Category 'health_beauty': Revenue BRL 88,629.80, Orders 519, Avg Order Value BRL 170.77",
+    "bpe_tokens": 191,
+    "char_len": 575
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_011",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2017-12:\n  Category 'watches_gifts': Revenue BRL 74,898.08, Orders 333, Avg Order Value BRL 224.92\n  Category 'health_beauty': Revenue BRL 68,907.78, Orders 426, Avg Order Value BRL 161.76\n  Category 'sports_leisure': Revenue BRL 68,184.69, Orders 431, Avg Order Value BRL 158.20\n\nMonth 2018-01:\n  Category 'sports_leisure': Revenue BRL 99,078.58, Orders 575, Avg Order Value BRL 172.31\n  Category 'computers_accessories': Revenue BRL 93,086.53, Orders 574, Avg Order Value BRL 162.17\n  Category 'bed_bath_table': Revenue BRL 89,658.07, Orders 689, Avg Order Value BRL 130.13",
+    "bpe_tokens": 192,
+    "char_len": 581
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_012",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2018-02:\n  Category 'computers_accessories': Revenue BRL 117,216.65, Orders 791, Avg Order Value BRL 148.19\n  Category 'health_beauty': Revenue BRL 95,463.05, Orders 595, Avg Order Value BRL 160.44\n  Category 'sports_leisure': Revenue BRL 86,346.83, Orders 571, Avg Order Value BRL 151.22\n\nMonth 2018-03:\n  Category 'watches_gifts': Revenue BRL 104,292.26, Orders 407, Avg Order Value BRL 256.25\n  Category 'computers_accessories': Revenue BRL 99,444.68, Orders 630, Avg Order Value BRL 157.85\n  Category 'health_beauty': Revenue BRL 97,035.83, Orders 605, Avg Order Value BRL 160.39",
+    "bpe_tokens": 188,
+    "char_len": 589
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_013",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2018-04:\n  Category 'health_beauty': Revenue BRL 104,332.90, Orders 619, Avg Order Value BRL 168.55\n  Category 'watches_gifts': Revenue BRL 96,089.14, Orders 462, Avg Order Value BRL 207.99\n  Category 'bed_bath_table': Revenue BRL 85,565.96, Orders 600, Avg Order Value BRL 142.61\n\nMonth 2018-05:\n  Category 'watches_gifts': Revenue BRL 127,977.40, Orders 585, Avg Order Value BRL 218.76\n  Category 'health_beauty': Revenue BRL 108,261.36, Orders 669, Avg Order Value BRL 161.83\n  Category 'bed_bath_table': Revenue BRL 84,642.74, Orders 600, Avg Order Value BRL 141.07",
+    "bpe_tokens": 192,
+    "char_len": 575
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_014",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2018-06:\n  Category 'health_beauty': Revenue BRL 123,857.97, Orders 790, Avg Order Value BRL 156.78\n  Category 'watches_gifts': Revenue BRL 93,881.09, Orders 444, Avg Order Value BRL 211.44\n  Category 'bed_bath_table': Revenue BRL 87,074.55, Orders 649, Avg Order Value BRL 134.17\n\nMonth 2018-07:\n  Category 'health_beauty': Revenue BRL 120,225.04, Orders 699, Avg Order Value BRL 172.00\n  Category 'watches_gifts': Revenue BRL 104,902.50, Orders 507, Avg Order Value BRL 206.91\n  Category 'housewares': Revenue BRL 76,944.79, Orders 462, Avg Order Value BRL 166.55",
+    "bpe_tokens": 193,
+    "char_len": 571
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_015",
+    "doc_name": "monthly_sales_summary",
+    "text": "Month 2018-08:\n  Category 'health_beauty': Revenue BRL 135,644.51, Orders 765, Avg Order Value BRL 177.31\n  Category 'watches_gifts': Revenue BRL 76,810.84, Orders 387, Avg Order Value BRL 198.48\n  Category 'bed_bath_table': Revenue BRL 75,008.32, Orders 555, Avg Order Value BRL 135.15",
+    "bpe_tokens": 98,
+    "char_len": 286
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_016",
+    "doc_name": "monthly_sales_summary",
+    "text": "ALL-TIME CATEGORY REVENUE RANKING\n\n----------------------------------------\n\nRank 1: 'health_beauty' -- Revenue BRL 1,412,089.53, Orders 8647\n\nRank 2: 'watches_gifts' -- Revenue BRL 1,264,333.12, Orders 5495\n\nRank 3: 'bed_bath_table' -- Revenue BRL 1,225,209.26, Orders 9272\n\nRank 4: 'sports_leisure' -- Revenue BRL 1,118,256.91, Orders 7530\n\nRank 5: 'computers_accessories' -- Revenue BRL 1,032,723.77, Orders 6530",
+    "bpe_tokens": 175,
+    "char_len": 415
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_017",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 6: 'furniture_decor' -- Revenue BRL 880,329.92, Orders 6307\n\nRank 7: 'housewares' -- Revenue BRL 758,392.25, Orders 5743\n\nRank 8: 'cool_stuff' -- Revenue BRL 691,680.89, Orders 3559\n\nRank 9: 'auto' -- Revenue BRL 669,454.75, Orders 3810\n\nRank 10: 'garden_tools' -- Revenue BRL 567,145.68, Orders 3448\n\nRank 11: 'toys' -- Revenue BRL 547,061.06, Orders 3804\n\nRank 12: 'baby' -- Revenue BRL 466,727.65, Orders 2809\n\nRank 13: 'perfumery' -- Revenue BRL 443,171.63, Orders 3086",
+    "bpe_tokens": 182,
+    "char_len": 478
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_018",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 14: 'telephony' -- Revenue BRL 379,202.62, Orders 4093\n\nRank 15: 'office_furniture' -- Revenue BRL 335,211.36, Orders 1254\n\nRank 16: 'stationery' -- Revenue BRL 269,575.05, Orders 2264\n\nRank 17: 'pet_shop' -- Revenue BRL 250,614.20, Orders 1688\n\nRank 18: 'computers' -- Revenue BRL 228,349.76, Orders 177\n\nRank 19: 'musical_instruments' -- Revenue BRL 202,187.12, Orders 611\n\nRank 20: 'electronics' -- Revenue BRL 200,723.09, Orders 2517\n\nRank 21: 'small_appliances' -- Revenue BRL 198,108.47, Orders 609",
+    "bpe_tokens": 177,
+    "char_len": 509
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_019",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 22: 'unknown' -- Revenue BRL 197,695.69, Orders 1392\n\nRank 23: 'fashion_bags_accessories' -- Revenue BRL 179,888.29, Orders 1820\n\nRank 24: 'luggage_accessories' -- Revenue BRL 168,778.12, Orders 1019\n\nRank 25: 'consoles_games' -- Revenue BRL 167,097.73, Orders 1018\n\nRank 26: 'construction_tools_construction' -- Revenue BRL 162,382.01, Orders 736\n\nRank 27: 'home_appliances_2' -- Revenue BRL 118,208.52, Orders 227\n\nRank 28: 'home_construction' -- Revenue BRL 95,022.37, Orders 483\n\nRank 29: 'home_appliances' -- Revenue BRL 93,301.78, Orders 747",
+    "bpe_tokens": 185,
+    "char_len": 552
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_020",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 30: 'furniture_living_room' -- Revenue BRL 85,045.07, Orders 414\n\nRank 31: 'agro_industry_and_commerce' -- Revenue BRL 76,203.30, Orders 177\n\nRank 32: 'home_confort' -- Revenue BRL 66,438.22, Orders 392\n\nRank 33: 'air_conditioning' -- Revenue BRL 59,854.55, Orders 246\n\nRank 34: 'fixed_telephony' -- Revenue BRL 59,816.54, Orders 212\n\nRank 35: 'kitchen_dining_laundry_garden_furniture' -- Revenue BRL 57,072.97, Orders 241\n\nRank 36: 'audio' -- Revenue BRL 56,255.32, Orders 348",
+    "bpe_tokens": 171,
+    "char_len": 482
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_021",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 37: 'books_general_interest' -- Revenue BRL 54,182.54, Orders 496\n\nRank 38: 'small_appliances_home_oven_and_coffee' -- Revenue BRL 49,245.90, Orders 72\n\nRank 39: 'construction_tools_lights' -- Revenue BRL 47,447.14, Orders 242\n\nRank 40: 'industry_commerce_and_business' -- Revenue BRL 46,079.34, Orders 232\n\nRank 41: 'construction_tools_safety' -- Revenue BRL 42,504.02, Orders 159\n\nRank 42: 'food' -- Revenue BRL 35,794.68, Orders 441\n\nRank 43: 'market_place' -- Revenue BRL 33,114.38, Orders 274",
+    "bpe_tokens": 170,
+    "char_len": 502
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_022",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 44: 'costruction_tools_garden' -- Revenue BRL 30,283.94, Orders 190\n\nRank 45: 'fashion_shoes' -- Revenue BRL 27,814.83, Orders 235\n\nRank 46: 'signaling_and_security' -- Revenue BRL 27,792.59, Orders 138\n\nRank 47: 'art' -- Revenue BRL 27,485.53, Orders 195\n\nRank 48: 'drinks' -- Revenue BRL 26,971.11, Orders 287\n\nRank 49: 'furniture_bedroom' -- Revenue BRL 23,379.22, Orders 90\n\nRank 50: 'books_technical' -- Revenue BRL 22,901.07, Orders 256\n\nRank 51: 'food_drink' -- Revenue BRL 19,337.77, Orders 221",
+    "bpe_tokens": 178,
+    "char_len": 507
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_023",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 52: 'costruction_tools_tools' -- Revenue BRL 17,934.17, Orders 97\n\nRank 53: 'fashion_male_clothing' -- Revenue BRL 12,514.95, Orders 106\n\nRank 54: 'christmas_supplies' -- Revenue BRL 11,928.75, Orders 125\n\nRank 55: 'fashion_underwear_beach' -- Revenue BRL 11,160.02, Orders 117\n\nRank 56: 'tablets_printing_image' -- Revenue BRL 8,754.61, Orders 79\n\nRank 57: 'cine_photo' -- Revenue BRL 7,902.18, Orders 63\n\nRank 58: 'music' -- Revenue BRL 6,724.86, Orders 38",
+    "bpe_tokens": 164,
+    "char_len": 463
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_024",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 59: 'furniture_mattress_and_upholstery' -- Revenue BRL 5,904.75, Orders 37\n\nRank 60: 'dvds_blu_ray' -- Revenue BRL 5,769.84, Orders 56\n\nRank 61: 'party_supplies' -- Revenue BRL 5,285.38, Orders 38\n\nRank 62: 'books_imported' -- Revenue BRL 5,150.94, Orders 50\n\nRank 63: 'portateis_cozinha_e_preparadores_de_alimentos' -- Revenue BRL 4,228.05, Orders 13\n\nRank 64: 'fashio_female_clothing' -- Revenue BRL 3,218.44, Orders 36\n\nRank 65: 'fashion_sport' -- Revenue BRL 2,657.55, Orders 26",
+    "bpe_tokens": 182,
+    "char_len": 487
+  },
+  {
+    "chunk_id": "monthly_sales_summary_chunk_025",
+    "doc_name": "monthly_sales_summary",
+    "text": "Rank 66: 'la_cuisine' -- Revenue BRL 2,388.54, Orders 13\n\nRank 67: 'arts_and_craftmanship' -- Revenue BRL 2,184.14, Orders 23\n\nRank 68: 'diapers_and_hygiene' -- Revenue BRL 2,046.19, Orders 25\n\nRank 69: 'flowers' -- Revenue BRL 1,598.91, Orders 29\n\nRank 70: 'pc_gamer' -- Revenue BRL 1,430.10, Orders 7\n\nRank 71: 'home_comfort_2' -- Revenue BRL 1,170.58, Orders 24\n\nRank 72: 'cds_dvds_musicals' -- Revenue BRL 954.99, Orders 12\n\nRank 73: 'fashion_childrens_clothes' -- Revenue BRL 598.67, Orders 7\n\nRank 74: 'security_and_services' -- Revenue BRL 324.51, Orders 2",
+    "bpe_tokens": 203,
+    "char_len": 563
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_000",
+    "doc_name": "seller_performance_report",
+    "text": "SELLER PERFORMANCE REPORT\n==================================================\nAnalysis of seller performance: revenue, delivery speed, delays, customer ratings.\nNote: review scores are attributed at order level (Olist dataset limitation).\n\nTotal active sellers: 2,970\nOverall avg delivery days: 11.7\nOverall avg review score: 4.10 / 5.0",
+    "bpe_tokens": 117,
+    "char_len": 335
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_001",
+    "doc_name": "seller_performance_report",
+    "text": "TOP 10 SELLERS BY REVENUE\n\n----------------------------------------\n\nRank 1 | Seller 4869f7a5... | State: SP | Revenue: BRL 247,007.06 | Orders: 1124 | Avg Delivery: 14.5 days | Avg Delay vs ETA: -11.2 days | Rating: 4.13/5\n\nRank 2 | Seller 7c67e144... | State: SP | Revenue: BRL 237,806.69 | Orders: 973 | Avg Delivery: 21.9 days | Avg Delay vs ETA: -11.5 days | Rating: 3.49/5",
+    "bpe_tokens": 173,
+    "char_len": 378
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_002",
+    "doc_name": "seller_performance_report",
+    "text": "Rank 3 | Seller 4a3ca931... | State: SP | Revenue: BRL 231,220.43 | Orders: 1772 | Avg Delivery: 13.9 days | Avg Delay vs ETA: -9.6 days | Rating: 3.83/5\n\nRank 4 | Seller 53243585... | State: BA | Revenue: BRL 230,797.02 | Orders: 348 | Avg Delivery: 12.9 days | Avg Delay vs ETA: -11.6 days | Rating: 4.13/5\n\nRank 5 | Seller fa1c13f2... | State: SP | Revenue: BRL 200,833.50 | Orders: 578 | Avg Delivery: 12.8 days | Avg Delay vs ETA: -10.3 days | Rating: 4.34/5",
+    "bpe_tokens": 183,
+    "char_len": 463
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_003",
+    "doc_name": "seller_performance_report",
+    "text": "Rank 6 | Seller da8622b1... | State: SP | Revenue: BRL 184,706.78 | Orders: 1311 | Avg Delivery: 10.7 days | Avg Delay vs ETA: -11.2 days | Rating: 4.18/5\n\nRank 7 | Seller 7e93a43e... | State: SP | Revenue: BRL 171,973.55 | Orders: 319 | Avg Delivery: 10.8 days | Avg Delay vs ETA: -12.2 days | Rating: 4.21/5\n\nRank 8 | Seller 1025f0e2... | State: SP | Revenue: BRL 171,924.96 | Orders: 910 | Avg Delivery: 11.6 days | Avg Delay vs ETA: -11.1 days | Rating: 3.99/5",
+    "bpe_tokens": 186,
+    "char_len": 464
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_004",
+    "doc_name": "seller_performance_report",
+    "text": "Rank 9 | Seller 7a67c85e... | State: SP | Revenue: BRL 160,278.52 | Orders: 1145 | Avg Delivery: 10.7 days | Avg Delay vs ETA: -11.8 days | Rating: 4.24/5\n\nRank 10 | Seller 955fee92... | State: SP | Revenue: BRL 156,606.48 | Orders: 1261 | Avg Delivery: 10.3 days | Avg Delay vs ETA: -10.3 days | Rating: 4.16/5",
+    "bpe_tokens": 126,
+    "char_len": 311
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_005",
+    "doc_name": "seller_performance_report",
+    "text": "BOTTOM 10 SELLERS BY REVENUE\n\n----------------------------------------\n\nBottom-1 | Seller b5f0712d... | State: SP | Revenue: BRL 21.28 | Orders: 1 | Rating: 4.00/5\n\nBottom-2 | Seller cc1f0464... | State: SP | Revenue: BRL 20.19 | Orders: 1 | Rating: 1.00/5\n\nBottom-3 | Seller c1dde11f... | State: SP | Revenue: BRL 19.89 | Orders: 1 | Rating: 1.00/5",
+    "bpe_tokens": 161,
+    "char_len": 349
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_006",
+    "doc_name": "seller_performance_report",
+    "text": "Bottom-4 | Seller ab75b89c... | State: SP | Revenue: BRL 19.74 | Orders: 1 | Rating: 1.50/5\n\nBottom-5 | Seller 3ac588cd... | State: SP | Revenue: BRL 19.29 | Orders: 1 | Rating: 5.00/5\n\nBottom-6 | Seller ad14615b... | State: SC | Revenue: BRL 19.21 | Orders: 1 | Rating: 5.00/5\n\nBottom-7 | Seller 702835e4... | State: MG | Revenue: BRL 18.56 | Orders: 1 | Rating: 5.00/5\n\nBottom-8 | Seller 4965a700... | State: SP | Revenue: BRL 16.36 | Orders: 1 | Rating: 5.00/5",
+    "bpe_tokens": 188,
+    "char_len": 463
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_007",
+    "doc_name": "seller_performance_report",
+    "text": "Bottom-9 | Seller 1fa2d3de... | State: SP | Revenue: BRL 15.90 | Orders: 1 | Rating: 1.00/5\n\nBottom-10 | Seller 77128dec... | State: SP | Revenue: BRL 15.22 | Orders: 1 | Rating: 5.00/5",
+    "bpe_tokens": 77,
+    "char_len": 185
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_008",
+    "doc_name": "seller_performance_report",
+    "text": "SELLER PERFORMANCE BY STATE\n\n----------------------------------------\n\nState SP: 1769 sellers, Revenue BRL 9,957,056.91, Avg Rating 4.07, Avg Delivery 11.3 days\n\nState PR: 335 sellers, Revenue BRL 1,424,161.25, Avg Rating 4.16, Avg Delivery 11.6 days\n\nState MG: 236 sellers, Revenue BRL 1,184,427.54, Avg Rating 4.14, Avg Delivery 12.3 days\n\nState RJ: 163 sellers, Revenue BRL 911,918.67, Avg Rating 4.10, Avg Delivery 11.3 days",
+    "bpe_tokens": 174,
+    "char_len": 428
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_009",
+    "doc_name": "seller_performance_report",
+    "text": "State SC: 184 sellers, Revenue BRL 717,739.37, Avg Rating 4.17, Avg Delivery 12.4 days\n\nState RS: 125 sellers, Revenue BRL 429,749.09, Avg Rating 4.15, Avg Delivery 13.0 days\n\nState BA: 18 sellers, Revenue BRL 297,146.93, Avg Rating 4.10, Avg Delivery 15.6 days\n\nState DF: 30 sellers, Revenue BRL 112,892.78, Avg Rating 4.03, Avg Delivery 12.7 days\n\nState PE: 9 sellers, Revenue BRL 103,486.10, Avg Rating 4.12, Avg Delivery 13.1 days\n\nState GO: 39 sellers, Revenue BRL 77,089.48, Avg Rating 4.14, Avg Delivery 14.0 days",
+    "bpe_tokens": 184,
+    "char_len": 520
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_010",
+    "doc_name": "seller_performance_report",
+    "text": "State ES: 22 sellers, Revenue BRL 58,853.49, Avg Rating 4.41, Avg Delivery 11.9 days\n\nState MA: 1 sellers, Revenue BRL 48,169.50, Avg Rating 3.99, Avg Delivery 17.3 days\n\nState CE: 12 sellers, Revenue BRL 23,724.05, Avg Rating 3.68, Avg Delivery 19.1 days\n\nState MT: 4 sellers, Revenue BRL 21,623.67, Avg Rating 4.22, Avg Delivery 13.9 days\n\nState PB: 6 sellers, Revenue BRL 17,844.43, Avg Rating 4.26, Avg Delivery 11.9 days\n\nState RN: 5 sellers, Revenue BRL 11,296.71, Avg Rating 4.48, Avg Delivery 11.7 days",
+    "bpe_tokens": 181,
+    "char_len": 510
+  },
+  {
+    "chunk_id": "seller_performance_report_chunk_011",
+    "doc_name": "seller_performance_report",
+    "text": "State MS: 5 sellers, Revenue BRL 9,750.65, Avg Rating 4.29, Avg Delivery 11.0 days\n\nState RO: 2 sellers, Revenue BRL 5,474.98, Avg Rating 3.85, Avg Delivery 16.6 days\n\nState PI: 1 sellers, Revenue BRL 2,791.55, Avg Rating 4.08, Avg Delivery 13.3 days\n\nState SE: 2 sellers, Revenue BRL 1,924.69, Avg Rating 3.85, Avg Delivery 12.2 days\n\nState PA: 1 sellers, Revenue BRL 1,393.11, Avg Rating 4.50, Avg Delivery 13.1 days\n\nState AM: 1 sellers, Revenue BRL 1,258.80, Avg Rating 2.33, Avg Delivery 47.3 days",
+    "bpe_tokens": 180,
+    "char_len": 502
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_000",
+    "doc_name": "delivery_performance_report",
+    "text": "ORDER DELIVERY PERFORMANCE BY REGION\n==================================================\nAnalysis of delivery speed and on-time performance across Brazilian regions.\nAvg Days vs ETA: negative = package arrived BEFORE estimated date (ETA is conservative).\nTotal delivered orders analysed: 110,189",
+    "bpe_tokens": 99,
+    "char_len": 294
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_001",
+    "doc_name": "delivery_performance_report",
+    "text": "REGIONAL SUMMARY (sorted by avg delivery days, slowest first)\n\n------------------------------------------------------------\n\nRegion: North | Orders: 1,796 | Avg Delivery: 22.2 days | Median: 20.0 days | Avg Days vs ETA: -15.8 (neg=early) | Late Orders: 8.7%\n\nRegion: Northeast | Orders: 9,044 | Avg Delivery: 19.4 days | Median: 17.0 days | Avg Days vs ETA: -11.5 (neg=early) | Late Orders: 12.6%",
+    "bpe_tokens": 178,
+    "char_len": 396
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_002",
+    "doc_name": "delivery_performance_report",
+    "text": "Region: Midwest | Orders: 5,624 | Avg Delivery: 14.5 days | Median: 13.0 days | Avg Days vs ETA: -12.5 (neg=early) | Late Orders: 6.5%\n\nRegion: South | Orders: 13,813 | Avg Delivery: 13.5 days | Median: 12.0 days | Avg Days vs ETA: -13.2 (neg=early) | Late Orders: 5.7%\n\nRegion: Southeast | Orders: 66,193 | Avg Delivery: 10.2 days | Median: 8.0 days | Avg Days vs ETA: -11.7 (neg=early) | Late Orders: 5.9%",
+    "bpe_tokens": 154,
+    "char_len": 407
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_003",
+    "doc_name": "delivery_performance_report",
+    "text": "STATE-LEVEL DELIVERY PERFORMANCE (slowest absolute time first)\n\n------------------------------------------------------------\n\nState RR (North) | Orders: 41 | Avg: 27.8 days | Max: 172 days | Avg Days vs ETA: -18.3 (neg=early) | Late%: 10.9%\n\nState AP (North) | Orders: 67 | Avg: 27.8 days | Max: 187 days | Avg Days vs ETA: -18.4 (neg=early) | Late%: 3.7%",
+    "bpe_tokens": 168,
+    "char_len": 355
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_004",
+    "doc_name": "delivery_performance_report",
+    "text": "State AM (North) | Orders: 145 | Avg: 26.0 days | Max: 138 days | Avg Days vs ETA: -19.9 (neg=early) | Late%: 3.1%\n\nState AL (Northeast) | Orders: 397 | Avg: 24.0 days | Max: 90 days | Avg Days vs ETA: -8.7 (neg=early) | Late%: 20.8%\n\nState PA (North) | Orders: 946 | Avg: 23.3 days | Max: 195 days | Avg Days vs ETA: -14.3 (neg=early) | Late%: 11.3%\n\nState MA (Northeast) | Orders: 717 | Avg: 21.2 days | Max: 168 days | Avg Days vs ETA: -9.9 (neg=early) | Late%: 18.0%",
+    "bpe_tokens": 193,
+    "char_len": 470
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_005",
+    "doc_name": "delivery_performance_report",
+    "text": "State SE (Northeast) | Orders: 335 | Avg: 21.0 days | Max: 194 days | Avg Days vs ETA: -10.0 (neg=early) | Late%: 16.3%\n\nState CE (Northeast) | Orders: 1,279 | Avg: 20.5 days | Max: 168 days | Avg Days vs ETA: -11.1 (neg=early) | Late%: 13.6%\n\nState AC (North) | Orders: 80 | Avg: 20.3 days | Max: 72 days | Avg Days vs ETA: -21.0 (neg=early) | Late%: 3.3%\n\nState PB (Northeast) | Orders: 517 | Avg: 20.1 days | Max: 102 days | Avg Days vs ETA: -13.0 (neg=early) | Late%: 10.8%",
+    "bpe_tokens": 194,
+    "char_len": 477
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_006",
+    "doc_name": "delivery_performance_report",
+    "text": "State RO (North) | Orders: 243 | Avg: 19.3 days | Max: 50 days | Avg Days vs ETA: -20.0 (neg=early) | Late%: 4.0%\n\nState PI (Northeast) | Orders: 476 | Avg: 18.9 days | Max: 194 days | Avg Days vs ETA: -11.5 (neg=early) | Late%: 13.6%\n\nState RN (Northeast) | Orders: 474 | Avg: 18.9 days | Max: 174 days | Avg Days vs ETA: -14.0 (neg=early) | Late%: 9.0%\n\nState BA (Northeast) | Orders: 3,256 | Avg: 18.8 days | Max: 167 days | Avg Days vs ETA: -11.0 (neg=early) | Late%: 11.9%",
+    "bpe_tokens": 194,
+    "char_len": 477
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_007",
+    "doc_name": "delivery_performance_report",
+    "text": "State PE (Northeast) | Orders: 1,593 | Avg: 17.8 days | Max: 166 days | Avg Days vs ETA: -13.5 (neg=early) | Late%: 9.1%\n\nState MT (Midwest) | Orders: 886 | Avg: 17.5 days | Max: 79 days | Avg Days vs ETA: -14.6 (neg=early) | Late%: 6.1%\n\nState TO (North) | Orders: 274 | Avg: 17.0 days | Max: 58 days | Avg Days vs ETA: -12.3 (neg=early) | Late%: 9.7%",
+    "bpe_tokens": 147,
+    "char_len": 352
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_008",
+    "doc_name": "delivery_performance_report",
+    "text": "State ES (Southeast) | Orders: 1,995 | Avg: 15.2 days | Max: 209 days | Avg Days vs ETA: -10.6 (neg=early) | Late%: 10.7%\n\nState MS (Midwest) | Orders: 701 | Avg: 15.1 days | Max: 58 days | Avg Days vs ETA: -11.2 (neg=early) | Late%: 9.0%\n\nState GO (Midwest) | Orders: 1,957 | Avg: 14.9 days | Max: 181 days | Avg Days vs ETA: -12.3 (neg=early) | Late%: 6.2%",
+    "bpe_tokens": 150,
+    "char_len": 358
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_009",
+    "doc_name": "delivery_performance_report",
+    "text": "State RS (South) | Orders: 5,344 | Avg: 14.7 days | Max: 186 days | Avg Days vs ETA: -14.1 (neg=early) | Late%: 5.8%\n\nState RJ (Southeast) | Orders: 12,350 | Avg: 14.7 days | Max: 208 days | Avg Days vs ETA: -12.0 (neg=early) | Late%: 11.6%\n\nState SC (South) | Orders: 3,546 | Avg: 14.5 days | Max: 98 days | Avg Days vs ETA: -11.6 (neg=early) | Late%: 8.2%",
+    "bpe_tokens": 151,
+    "char_len": 357
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_010",
+    "doc_name": "delivery_performance_report",
+    "text": "State DF (Midwest) | Orders: 2,080 | Avg: 12.5 days | Max: 68 days | Avg Days vs ETA: -12.2 (neg=early) | Late%: 6.0%\n\nState MG (Southeast) | Orders: 11,354 | Avg: 11.5 days | Max: 187 days | Avg Days vs ETA: -13.3 (neg=early) | Late%: 4.4%\n\nState PR (South) | Orders: 4,923 | Avg: 11.5 days | Max: 97 days | Avg Days vs ETA: -13.5 (neg=early) | Late%: 3.9%",
+    "bpe_tokens": 152,
+    "char_len": 357
+  },
+  {
+    "chunk_id": "delivery_performance_report_chunk_011",
+    "doc_name": "delivery_performance_report",
+    "text": "State SP (Southeast) | Orders: 40,494 | Avg: 8.3 days | Max: 191 days | Avg Days vs ETA: -11.2 (neg=early) | Late%: 4.4%\n\nDELIVERY PERFORMANCE EXTREMES\n----------------------------------------\nSLOWEST absolute delivery: North region -- avg 22.2 days.\nFASTEST absolute delivery: Southeast region -- avg 10.2 days.\nMOST LATE ORDERS (% basis): Northeast region -- 12.6% of orders arrived after estimated date.",
+    "bpe_tokens": 149,
+    "char_len": 406
+  },
+  {
+    "chunk_id": "customer_complaints_report_chunk_000",
+    "doc_name": "customer_complaints_report",
+    "text": "CUSTOMER COMPLAINT THEMES FROM REVIEWS\n==================================================\nAnalysis of customer satisfaction and complaint patterns from Olist order reviews.\n\nTotal reviews: 99,224\nReview score distribution:\n  Score 1/5: 11,424 reviews (11.5%)\n  Score 2/5: 3,151 reviews (3.2%)\n  Score 3/5: 8,179 reviews (8.2%)\n  Score 4/5: 19,142 reviews (19.3%)\n  Score 5/5: 57,328 reviews (57.8%)",
+    "bpe_tokens": 156,
+    "char_len": 398
+  },
+  {
+    "chunk_id": "customer_complaints_report_chunk_001",
+    "doc_name": "customer_complaints_report",
+    "text": "Negative reviews (score 1-2): 14,575 (14.7%)\nPositive reviews (score 4-5): 76,470 (77.1%)\nNeutral reviews  (score 3):   8,179\n\nCOMPLAINT THEME ANALYSIS (from negative reviews, score 1-2)\n\n------------------------------------------------------------\n\nTheme 'Late Delivery / Not Received': 1,770 mentions (12.1% of negative reviews)\n\nTheme 'Wrong / Damaged Product': 950 mentions (6.5% of negative reviews)\n\nTheme 'Poor Product Quality': 777 mentions (5.3% of negative reviews)\n\nTheme 'Missing Items': 415 mentions (2.8% of negative reviews)\n\nTheme 'Refund / Return Problems': 376 mentions (2.6% of negative reviews)",
+    "bpe_tokens": 220,
+    "char_len": 614
+  },
+  {
+    "chunk_id": "customer_complaints_report_chunk_002",
+    "doc_name": "customer_complaints_report",
+    "text": "Theme 'Seller Communication Issues': 263 mentions (1.8% of negative reviews)\n\nTheme 'Packaging Issues': 190 mentions (1.3% of negative reviews)\n\nAVERAGE REVIEW SCORE BY ORDER STATUS\n----------------------------------------\n  Status 'processing': avg score 1.28 (296 reviews)\n  Status 'unavailable': avg score 1.53 (597 reviews)\n  Status 'invoiced': avg score 1.66 (313 reviews)\n  Status 'canceled': avg score 1.81 (609 reviews)\n  Status 'shipped': avg score 2.01 (1043 reviews)\n  Status 'created': avg score 2.33 (3 reviews)\n  Status 'approved': avg score 2.50 (2 reviews)\n  Status 'delivered': avg score 4.16 (96361 reviews)",
+    "bpe_tokens": 211,
+    "char_len": 625
+  },
+  {
+    "chunk_id": "customer_complaints_report_chunk_003",
+    "doc_name": "customer_complaints_report",
+    "text": "SAMPLE NEGATIVE REVIEW MESSAGES (score = 1, non-empty)\n\n----------------------------------------\n\nSample 1: Não gostei ! Comprei gato por lebre\n\nSample 2: Sempre compro pela Internet e a entrega ocorre antes do prazo combinado, que acredito ser o prazo máximo. No stark o prazo máximo já se esgotou e ainda não recebi o produto.\n\nSample 3: Nada de chegar o meu pedido.\n\nSample 4: recebi somente 1 controle Midea Split ESTILO.\n\nFaltou Controle Remoto para Ar Condicionado Consul",
+    "bpe_tokens": 185,
+    "char_len": 477
+  },
+  {
+    "chunk_id": "customer_complaints_report_chunk_004",
+    "doc_name": "customer_complaints_report",
+    "text": "Sample 5: O produto não chegou no prazo estipulado e causou transtorno, pq programei a viagem de férias do meu filho, baseado no prazo. Moro na Bahia e ele em Cuiabá sozinho. Agora, a casa está vazia.\n\nSample 6: Produto muito inferior, mal acabado.\n\nSample 7: Pedi reembolso e sem resposta até momento\n\nSample 8: Este foi o pedido\n\nBalde Com 128 Peças - Blocos De Montar 2 un - R$ 25,00 cada (NÃO FOI ENTREGUE)\n\nVendido e entregue targaryen",
+    "bpe_tokens": 164,
+    "char_len": 440
+  },
+  {
+    "chunk_id": "customer_complaints_report_chunk_005",
+    "doc_name": "customer_complaints_report",
+    "text": "Tapete de Eva Nº Letras 36 Peças Crianças 1 un - R$ 35,90 (ESTE FOI ENT\n\nSample 9: comprei tres pacotes de cinco folhas cada de papel transfer para tecido escuro e so recebi dois\n\nSample 10: Não funciona não faz sincronismo",
+    "bpe_tokens": 82,
+    "char_len": 223
+  }
+]

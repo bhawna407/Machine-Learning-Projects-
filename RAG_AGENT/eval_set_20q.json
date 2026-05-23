@@ -1,0 +1,347 @@
+[
+  {
+    "id": "Q01",
+    "category": "Simple Stats",
+    "topic": "delivery",
+    "question": "What is the total number of delivered orders in the dataset?",
+    "expected_keywords": [
+      "delivered",
+      "orders",
+      "total",
+      "analysed"
+    ],
+    "relevant_docs": [
+      "delivery_performance_report"
+    ],
+    "ground_truth_answer": "110,189 delivered orders were analysed.",
+    "notes": "Answer is in the delivery report header paragraph."
+  },
+  {
+    "id": "Q02",
+    "category": "Simple Stats",
+    "topic": "sales",
+    "question": "Which product category generates the highest total revenue?",
+    "expected_keywords": [
+      "health_beauty",
+      "revenue",
+      "rank 1"
+    ],
+    "relevant_docs": [
+      "monthly_sales_summary"
+    ],
+    "ground_truth_answer": "health_beauty is ranked 1 by all-time revenue.",
+    "notes": "Answer in all-time category revenue ranking, Rank 1."
+  },
+  {
+    "id": "Q03",
+    "category": "Simple Stats",
+    "topic": "operations",
+    "question": "What percentage of customer reviews are negative (score 1 or 2)?",
+    "expected_keywords": [
+      "negative",
+      "score 1",
+      "score 2",
+      "%"
+    ],
+    "relevant_docs": [
+      "customer_complaints_report"
+    ],
+    "ground_truth_answer": "Lookup the 'Negative reviews (score 1-2)' line in the complaints report.",
+    "notes": "Single numeric fact from review distribution table."
+  },
+  {
+    "id": "Q04",
+    "category": "Simple Stats",
+    "topic": "sellers",
+    "question": "How many active sellers are there on the platform?",
+    "expected_keywords": [
+      "sellers",
+      "total active",
+      "3,"
+    ],
+    "relevant_docs": [
+      "seller_performance_report"
+    ],
+    "ground_truth_answer": "Total active sellers figure from the seller performance report header.",
+    "notes": "Header fact in seller performance report."
+  },
+  {
+    "id": "Q05",
+    "category": "Simple Stats",
+    "topic": "delivery",
+    "question": "What is the overall average delivery time in days across all sellers?",
+    "expected_keywords": [
+      "avg delivery days",
+      "overall"
+    ],
+    "relevant_docs": [
+      "seller_performance_report"
+    ],
+    "ground_truth_answer": "Overall avg delivery days figure from the seller report summary.",
+    "notes": "Numeric stat in seller report overall summary section."
+  },
+  {
+    "id": "Q06",
+    "category": "Trend Analysis",
+    "topic": "sales",
+    "question": "How did total monthly revenue change from 2017 to 2018?",
+    "expected_keywords": [
+      "2017",
+      "2018",
+      "revenue",
+      "month"
+    ],
+    "relevant_docs": [
+      "monthly_sales_summary"
+    ],
+    "ground_truth_answer": "Compare monthly totals between 2017 and 2018 months in the OVERALL MONTHLY TOTALS section.",
+    "notes": "Multi-month comparison -- identify growth direction."
+  },
+  {
+    "id": "Q07",
+    "category": "Trend Analysis",
+    "topic": "sales",
+    "question": "Which product category appeared most frequently in the top-3 monthly revenue ranking?",
+    "expected_keywords": [
+      "category",
+      "top 3",
+      "month",
+      "health_beauty",
+      "watches_gifts"
+    ],
+    "relevant_docs": [
+      "monthly_sales_summary"
+    ],
+    "ground_truth_answer": "Count category appearances across TOP 3 CATEGORIES PER MONTH sections.",
+    "notes": "Requires scanning across multiple monthly top-3 tables."
+  },
+  {
+    "id": "Q08",
+    "category": "Trend Analysis",
+    "topic": "sales",
+    "question": "Which month had the highest total revenue in the entire dataset?",
+    "expected_keywords": [
+      "revenue",
+      "2018",
+      "month",
+      "orders"
+    ],
+    "relevant_docs": [
+      "monthly_sales_summary"
+    ],
+    "ground_truth_answer": "Find the month with the highest 'Revenue BRL' in OVERALL MONTHLY TOTALS.",
+    "notes": "Scan OVERALL MONTHLY TOTALS for the month row with the largest Revenue BRL value."
+  },
+  {
+    "id": "Q09",
+    "category": "Trend Analysis",
+    "topic": "operations",
+    "question": "How does the average review score differ between delivered and cancelled orders?",
+    "expected_keywords": [
+      "delivered",
+      "canceled",
+      "avg score",
+      "status"
+    ],
+    "relevant_docs": [
+      "customer_complaints_report"
+    ],
+    "ground_truth_answer": "Compare avg score rows: delivered=4.16 vs canceled=1.81 (AVERAGE REVIEW SCORE BY ORDER STATUS).",
+    "notes": "Direct comparison from the order-status score breakdown table."
+  },
+  {
+    "id": "Q10",
+    "category": "Trend Analysis",
+    "topic": "sales",
+    "question": "Which months in 2018 saw over 1 million BRL in revenue?",
+    "expected_keywords": [
+      "2018",
+      "1,0",
+      "revenue",
+      "month"
+    ],
+    "relevant_docs": [
+      "monthly_sales_summary"
+    ],
+    "ground_truth_answer": "Scan OVERALL MONTHLY TOTALS for 2018 months with Revenue > BRL 1,000,000.",
+    "notes": "Threshold-based lookup from monthly totals."
+  },
+  {
+    "id": "Q11",
+    "category": "Comparison",
+    "topic": "delivery",
+    "question": "Which region has the slowest average delivery time compared to others?",
+    "expected_keywords": [
+      "North",
+      "slowest",
+      "22.2 days",
+      "delivery"
+    ],
+    "relevant_docs": [
+      "delivery_performance_report"
+    ],
+    "ground_truth_answer": "North region -- avg 22.2 days (from REGIONAL SUMMARY sorted slowest first).",
+    "notes": "Core retrieval test -- directly tested in vector search demo."
+  },
+  {
+    "id": "Q12",
+    "category": "Comparison",
+    "topic": "sellers",
+    "question": "How do top-10 sellers compare to bottom-10 sellers in average review score and revenue?",
+    "expected_keywords": [
+      "top",
+      "bottom",
+      "seller",
+      "rating",
+      "revenue"
+    ],
+    "relevant_docs": [
+      "seller_performance_report"
+    ],
+    "ground_truth_answer": "Read top-10 and bottom-10 seller tables and compare Rating and Revenue columns.",
+    "notes": "Side-by-side comparison from top/bottom seller tables."
+  },
+  {
+    "id": "Q13",
+    "category": "Comparison",
+    "topic": "delivery",
+    "question": "Which region has the highest percentage of late orders?",
+    "expected_keywords": [
+      "Northeast",
+      "late",
+      "12.6%",
+      "MOST LATE ORDERS"
+    ],
+    "relevant_docs": [
+      "delivery_performance_report"
+    ],
+    "ground_truth_answer": "Northeast region -- 12.6% of orders arrived after estimated date.",
+    "notes": "Distinct from Q11: North=slowest absolute time, Northeast=highest late%."
+  },
+  {
+    "id": "Q14",
+    "category": "Comparison",
+    "topic": "sellers",
+    "question": "Which seller state generates more revenue -- SP or MG?",
+    "expected_keywords": [
+      "SP",
+      "MG",
+      "revenue",
+      "state"
+    ],
+    "relevant_docs": [
+      "seller_performance_report"
+    ],
+    "ground_truth_answer": "SP generates more revenue than MG (from SELLER PERFORMANCE BY STATE table).",
+    "notes": "State-level seller performance comparison."
+  },
+  {
+    "id": "Q15",
+    "category": "Comparison",
+    "topic": "delivery",
+    "question": "How does average delivery time in the North region compare to the Southeast?",
+    "expected_keywords": [
+      "North",
+      "Southeast",
+      "22.2",
+      "10.2",
+      "days"
+    ],
+    "relevant_docs": [
+      "delivery_performance_report"
+    ],
+    "ground_truth_answer": "North avg 22.2 days vs Southeast avg 10.2 days -- North is 2x slower.",
+    "notes": "Direct region comparison from REGIONAL SUMMARY table."
+  },
+  {
+    "id": "Q16",
+    "category": "Causal Reasoning",
+    "topic": "delivery",
+    "question": "Why might the North region have the slowest delivery performance?",
+    "expected_keywords": [
+      "North",
+      "22.2 days",
+      "slowest",
+      "delivery",
+      "avg"
+    ],
+    "relevant_docs": [
+      "delivery_performance_report"
+    ],
+    "ground_truth_answer": "The data shows North has avg 22.2 days delivery. The LLM should infer geographic remoteness from the data pattern.",
+    "notes": "expected_keywords are chunk-retrieval terms (in documents). Geographic reasoning is LLM inference."
+  },
+  {
+    "id": "Q17",
+    "category": "Causal Reasoning",
+    "topic": "operations",
+    "question": "What is the most likely cause of 1-star reviews according to complaint themes?",
+    "expected_keywords": [
+      "Late Delivery",
+      "Not Received",
+      "1,770",
+      "12.1%"
+    ],
+    "relevant_docs": [
+      "customer_complaints_report"
+    ],
+    "ground_truth_answer": "Late Delivery / Not Received -- 1,770 mentions (12.1% of negative reviews), top-ranked theme.",
+    "notes": "Direct lookup from complaint theme rankings."
+  },
+  {
+    "id": "Q18",
+    "category": "Causal Reasoning",
+    "topic": "sellers",
+    "question": "Why do bottom-10 sellers have lower revenue -- is it poor ratings or delivery issues?",
+    "expected_keywords": [
+      "bottom",
+      "seller",
+      "revenue",
+      "rating",
+      "delivery"
+    ],
+    "relevant_docs": [
+      "seller_performance_report"
+    ],
+    "ground_truth_answer": "Read bottom-10 table: compare Rating and Avg Delivery figures vs top-10 to determine dominant factor.",
+    "notes": "Multi-factor reasoning across top and bottom seller tables."
+  },
+  {
+    "id": "Q19",
+    "category": "Causal Reasoning",
+    "topic": "operations",
+    "question": "How might slow deliveries in the North region contribute to negative reviews?",
+    "expected_keywords": [
+      "North",
+      "Late Delivery",
+      "negative",
+      "22.2",
+      "delivery"
+    ],
+    "relevant_docs": [
+      "delivery_performance_report",
+      "customer_complaints_report"
+    ],
+    "ground_truth_answer": "North has 22.2 avg delivery days; Late Delivery is the #1 complaint (21%). Cross-doc causal link.",
+    "notes": "Cross-document causal chain: delivery delay -> Late Delivery complaint -> low score."
+  },
+  {
+    "id": "Q20",
+    "category": "Causal Reasoning",
+    "topic": "sellers",
+    "question": "If a seller operates in a state with slow delivery, how does that correlate with their review score?",
+    "expected_keywords": [
+      "state",
+      "delivery",
+      "avg delivery",
+      "rating",
+      "seller"
+    ],
+    "relevant_docs": [
+      "seller_performance_report",
+      "delivery_performance_report"
+    ],
+    "ground_truth_answer": "Compare SELLER PERFORMANCE BY STATE table: states with higher avg delivery days vs their avg rating.",
+    "notes": "expected_keywords corrected: removed 'infrastructure' (not in chunks). Hypothesis validated via seller-state table."
+  }
+]
