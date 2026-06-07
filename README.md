@@ -37,11 +37,7 @@ Welcome to my production-ready engineering repository. This workspace hosts modu
 * [cite_start]**Technical Execution:** Architected a high-contrast corporate dashboard leveraging an optimized **Star Schema relational model**[cite: 181, 195]. [cite_start]Implemented a continuous **30-Day Moving Average trend line** to strip daily noise metrics and deployed a **90-day forward predictive horizon** flanked by **95% Confidence Shaded Error Bands**[cite: 182, 183, 191, 193].
 * **💡 SO WHAT? (Business Impact)[cite_start]:** **Transitions corporate strategy from reactive monitoring to proactive supply-chain planning.** Explicitly flags extreme statistical variances (e.g., Q4 outliers) for subsequent algorithmic retraining loops[cite: 184, 189]. [cite_start]Deployed with contextual post-actual filtration logic so procurement officers can directly project risk parameters for **"Best Case" vs "Worst Case" inventory stock ordering scenarios**[cite: 186, 187, 193].
 
-  # 🤖 Advanced Data Science & Machine Learning Portfolio
-### *Enterprise Predictive Pipelines, Conversational BI Architectures & Time Series Analytics*
-
-Welcome to my production-ready engineering repository. This workspace hosts modular, end-to-end analytical solutions designed to tackle complex corporate data bottlenecks—ranging from customer unit economics and semantic search to macroeconomic forecasting.
-
+---
 
 ### 🔍 4. Credit Card Fraud Detection Pipeline
 * **The Business Problem:** Financial institutions absorb massive chargeback losses from undetected card fraud while simultaneously alienating legitimate customers through excessive false-alarm friction—a dual cost vector that no threshold-agnostic classifier can resolve.
