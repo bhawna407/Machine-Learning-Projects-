@@ -163,6 +163,38 @@ FRAUD_DETECTION/
 
 ---
 
+---
+
+## 🔤 Technical Glossary
+
+<details>
+<summary><b>📖 Click to expand — Key Technical Terms Explained</b></summary>
+
+<br>
+
+| Term | Plain English Explanation |
+|---|---|
+| **ROC-AUC** | Measures how well the model separates fraud from legit across ALL thresholds. Score of 1.0 = perfect, 0.5 = random guess. Our XGBoost scored **0.977** |
+| **Precision** | Of all transactions flagged as fraud, how many actually were fraud. High precision = fewer false alarms |
+| **Recall** | Of all actual fraud cases, how many did the model catch. High recall = fewer missed frauds |
+| **F1 Score** | Harmonic mean of Precision & Recall. Balances both — useful when classes are imbalanced |
+| **F2 Score** | Like F1 but weights Recall 2× more than Precision — preferred in fraud where missing fraud costs more than false alarms |
+| **SMOTE** | Synthetic Minority Oversampling Technique. Creates synthetic fraud samples so the model trains on balanced data instead of 0.17% fraud |
+| **SHAP** | SHapley Additive exPlanations. Explains **why** the model made each prediction — which features pushed the score up or down |
+| **Confusion Matrix** | Table showing True Positives (caught fraud), False Positives (false alarms), True Negatives (correct legit), False Negatives (missed fraud) |
+| **Decision Threshold** | The probability cutoff above which a transaction is flagged as fraud. Default = 0.50, our optimal = **0.86** |
+| **False Positive (FP)** | Legit transaction wrongly flagged as fraud. Costs $50 (investigation + customer friction) |
+| **False Negative (FN)** | Real fraud that was missed. Costs $388.59 (fraud amount × 2.5× chargeback) |
+| **PCA Components (V1–V28)** | Original features anonymised via Principal Component Analysis by the dataset provider for privacy |
+| **Data Leakage** | When test data information bleeds into training — inflates performance metrics falsely. Prevented here by fitting SMOTE and scalers on train only |
+| **Class Imbalance** | When one class (fraud = 0.17%) is far rarer than the other (legit = 99.83%) — causes models to ignore the minority class |
+| **Parquet** | Columnar file format ~10× faster to load than CSV for large dataframes |
+
+</details>
+
+---
+
+
 ## 💰 Business Impact
 
 > Annual transaction volume extrapolated: **~51.8 million txns/year**
@@ -220,6 +252,11 @@ python "DAY 3/generate_powerbi_datasets.py"
 ![SHAP](https://img.shields.io/badge/SHAP-7B2D8B?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+
+
+
+
+
 
 ---
 
