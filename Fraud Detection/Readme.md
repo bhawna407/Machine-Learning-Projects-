@@ -64,11 +64,9 @@ FRAUD_DETECTION/
 ## 📈 Day 1 — EDA & Feature Engineering
 
 ### Class Distribution
-![Class Distribution](DAY%201/charts/ch1_class_distribution.png)
 ![Class Distribution](./images/ch1_class_distribution.png)
 
 ### Transaction Amount — Fraud vs Legitimate (Log Scale)
-![Fraud vs Legit Amount](DAY%201/processed/fraud_vs_legit_amount_log.png)
 ![Amount Distribution](./images/ch2_amount_distribution.png)
 
 ### Feature Correlation with Fraud Class
@@ -76,7 +74,6 @@ FRAUD_DETECTION/
 
 
 ### SMOTE Balancing — Before & After
-![Class Balance SMOTE](DAY%201/processed/class_balance_all_splits.png)
 ![SMOTE Balance](./images/ch13_smote_balance.png)
 
 | Split | Rows | Fraud % |
@@ -101,15 +98,12 @@ FRAUD_DETECTION/
 | 4 | Random Forest | 0.9538 | 0.7895 | 0.9146 | 0.8475 | 99.95% |
 
 ### ROC Curves — All 4 Models
-![ROC Curves](DAY%202/output/plots/roc_curves.png)
 ![ROC Curves](./images/roc_curves.png)
 
 ### Precision-Recall Curves
-![PR Curves](DAY%202/output/plots/pr_curves.png)
 ![PR Curves](./images/pr_curves.png)
 
 ### Confusion Matrices
-![Confusion Matrices](DAY%202/output/plots/confusion_matrices.png)
 ![Confusion Matrices](./images/confusion_matrices.png)
 ---
 
@@ -164,7 +158,6 @@ FRAUD_DETECTION/
 | 5 | **V11** | 0.534 | ↑ High → fraud risk ↑ |
 
 ### Feature Importance — All Models Side by Side
-![Feature Importance Comparison](DAY%202/output/plots/feature_importance_comparison.png)
 ![Feature Importance Comparison](./images/feature_importance_comparison.png)
 
 
